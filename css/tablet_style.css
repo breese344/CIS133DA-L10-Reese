@@ -93,3 +93,26 @@ footer {
 footer a {
     color: white;
 }
+/* Tablet Breakpoint */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: calc(50% - 20px);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+footer {
+    background-color: #cddc39;
+}
