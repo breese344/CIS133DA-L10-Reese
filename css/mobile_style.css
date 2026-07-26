@@ -51,7 +51,7 @@ nav a {
     padding: 20px;
 }
 
-nav a:hover {
+nav a: hover {
     background-color: #135367;
     color: #ffffff;
 }
@@ -92,4 +92,23 @@ footer {
 
 footer a {
     color: white;
+}
+/* Mobile Breakpoint */
+
+main {
+    display: block;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+nav ul li {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    background-color: #4CAF50;
 }
